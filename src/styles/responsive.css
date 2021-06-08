@@ -1,0 +1,85 @@
+/* ------------------ Responsive Version ------------------ */
+
+@media screen and (min-width: 700px) {
+  header,
+  .nav_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header {
+    padding: 0 2rem;
+  }
+  .header_title {
+    font-size: 1.2rem;
+  }
+
+  .header_menu {
+    display: none;
+  }
+
+  nav {
+    width: 30%;
+    display: block;
+  }
+
+  .nav_item a {
+    padding: 1.2rem 0;
+  }
+
+  .hero_title {
+    font-size: 2rem;
+  }
+
+  .hero_subtitle {
+    width: 50%;
+  }
+
+  .hero_browse {
+    width: auto;
+    padding: 1rem 2rem;
+  }
+
+  .details {
+    grid-template-rows: 0.3fr 1fr 0.3fr;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  nav {
+    width: 20%;
+  }
+
+  .hero_title {
+    font-size: 3rem;
+  }
+
+  .explore_wrapper {
+    height: 100vh;
+  }
+
+  .explore_wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  .explore_restaurants {
+    margin-top: 5rem;
+  }
+
+  .explore_restaurant_title {
+    width: 100%;
+    margin: 2rem;
+  }
+
+  .explore_restaurant_img {
+    flex: 1;
+    padding: 0 1rem;
+  }
+
+  .details {
+    flex: 1;
+    height: 60vh;
+  }
+}
