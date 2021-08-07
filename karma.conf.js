@@ -1,3 +1,4 @@
+/* eslint-disable func-names */
 // Karma configuration
 // Generated on Fri Jul 03 2020 20:15:52 GMT+0700 (Western Indonesia Time)
 module.exports = function (config) {
@@ -52,7 +53,7 @@ module.exports = function (config) {
 
     // level of logging
     /* possible values: config.LOG_DISABLE || config.LOG_ERROR
-    || config.LOG_WARN || config.LOG_INFO || config.LOG_DEBUG */
+      || config.LOG_WARN || config.LOG_INFO || config.LOG_DEBUG */
     logLevel: config.LOG_INFO,
 
     // enable / disable watching file and executing tests whenever any file changes
